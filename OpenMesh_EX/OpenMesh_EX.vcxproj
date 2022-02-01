@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4F49422E-CEC6-4FD9-93E4-CC1B681A5FF3}</ProjectGuid>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>OpenMesh_EX</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>Mesh_Simplification</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>..\OpenMesh-5.2\src;$(IncludePath)</IncludePath>
+    <LibraryPath>..\OpenMesh-5.2\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>..\OpenMesh-5.2\src;$(IncludePath)</IncludePath>
+    <LibraryPath>..\OpenMesh-5.2\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_USE_MATH_DEFINES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\james\Desktop\OpenMesh_EX_update3\OpenMesh_EX_update3\OpenMesh_EX\opengl\glew\include;C:\Users\james\Desktop\OpenMesh_EX_update3\OpenMesh_EX_update3\OpenMesh_EX\opengl\freeglut\include;C:\Users\james\Desktop\OpenMesh_EX_update3\OpenMesh_EX_update3\OpenMesh_EX\eigen3;C:\Users\james\Desktop\OpenMesh_EX_update3\OpenMesh_EX_update3\OpenMesh_EX\opengl\stb-master;C:\Users\james\Desktop\OpenMesh_EX_update3\OpenMesh_EX_update3\OpenMesh_EX\opengl\glm\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CompileAsManaged>true</CompileAsManaged>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;OpenMeshCored.lib;glu32.lib</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\Users\james\Desktop\OpenMesh_EX_update3\OpenMesh_EX_update3\OpenMesh_EX\opengl\glew\lib;C:\Users\james\Desktop\OpenMesh_EX_update3\OpenMesh_EX_update3\OpenMesh_EX\opengl\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <TurnOffAssemblyGeneration>false</TurnOffAssemblyGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_USE_MATH_DEFINES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\88691\Desktop\opengl\glew\include;C:\Users\88691\Desktop\opengl\glm\include;C:\Users\88691\Desktop\opengl\GLFW\include;C:\Users\88691\Desktop\opengl\stb-master;C:\Users\88691\Desktop\opengl\eigen3;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>glew32.lib;opengl32.lib;OpenMeshCored.lib;glfw3.lib;glu32.lib</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\Users\88691\Desktop\opengl\glew\lib;C:\Users\88691\Desktop\opengl\GLFW\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="HKOGLPanel">
+      <HintPath>..\HKOGLPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="DotNetUitilities.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="DrawModelShader.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="drawpoint.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="MeshObject.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="ShaderObject.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="tiny_obj_loader.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="ViewManager.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="DotNetUtilities.h" />
+    <ClInclude Include="DrawModelShader.h" />
+    <ClInclude Include="drawpoint.h" />
+    <ClInclude Include="MeshObject.h" />
+    <ClInclude Include="MyForm.h">
+      <FileType>CppForm</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="ShaderObject.h" />
+    <ClInclude Include="tiny_obj_loader.h" />
+    <ClInclude Include="ViewManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <DependentUpon>MyForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="drawModel.fs.glsl" />
+    <None Include="drawModel.gs.glsl" />
+    <None Include="drawModel.vs.glsl" />
+    <None Include="point.fs.glsl" />
+    <None Include="point.vs.glsl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
