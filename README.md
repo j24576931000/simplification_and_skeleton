@@ -22,7 +22,12 @@ M11015053黃俊翰
 
 剩餘點數量=3002 剩餘點數量=1002 剩餘點數量=502![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.018.jpeg)
 
-Demo 影片![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.019.jpeg)
+Demo 影片
+
+
+https://github.com/j24576931000/simplification_and_skeleton/assets/31430607/d8f03255-a239-4123-ae15-ea1a7c33bd13
+
+
 
 骨架 ![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.020.jpeg)![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.021.jpeg)![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.022.jpeg)
 
@@ -42,7 +47,12 @@ Iteration:10 iteration:11
 
 Demo 影片
 
-![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.026.jpeg)
+
+
+https://github.com/j24576931000/simplification_and_skeleton/assets/31430607/1fe70876-7574-4613-8c58-f65e77a8579c
+
+
+
 
 Connectivity Surgery
 
@@ -54,4 +64,13 @@ Connectivity Surgery
 
 
 
-Demo 影片![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.032.jpeg)
+Demo 影片
+
+
+
+https://github.com/j24576931000/simplification_and_skeleton/assets/31430607/185bf36a-b63e-495a-a3c5-f0b36442ebd1
+
+
+
+
+
