@@ -1,72 +1,36 @@
-﻿HW1
+# Simplification_and_Skeleton
 
-M11015053黃俊翰
 
-介面 縮骨架![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.001.png)
+## **Interface**
 
-骨架speed參數 ![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.002.jpeg)![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.003.png)![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.004.png) 骨架slidebar
+![interface](https://github.com/j24576931000/simplification_and_skeleton/assets/31430607/49e8dd86-e448-4e1a-80a4-7389de7322c3)
 
-骨架後的減面 骨架後的減面當 前剩餘點數量![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.005.png)![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.006.png)
+## **Simplification**
 
-![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.007.png) 骨架後的減面sliderbar 簡化 ![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.008.png)![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.009.png)
+- 初始點數量=50002
+  
+![Simplification](https://github.com/j24576931000/simplification_and_skeleton/assets/31430607/9f61fee3-7e93-465f-9d08-ff910a6e2242)
 
-簡化後剩餘點數量 ![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.010.png) 簡化sliderbar
-
-![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.011.png) 重製參數 ![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.012.png) 切換成畫線和點
-
-- 原來點數量=50002
-
-簡化
-
-剩餘點數量=30002 剩餘點數量=10002 剩餘點數量=5002![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.013.jpeg)![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.014.jpeg)![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.015.jpeg)![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.016.jpeg)![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.017.jpeg)
-
-剩餘點數量=3002 剩餘點數量=1002 剩餘點數量=502![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.018.jpeg)
-
-Demo 影片
-
+Demo Video
 
 https://github.com/j24576931000/simplification_and_skeleton/assets/31430607/d8f03255-a239-4123-ae15-ea1a7c33bd13
 
+## **Skeleton**
 
+ ![Skeleton](https://github.com/j24576931000/simplification_and_skeleton/assets/31430607/8ba1851a-720d-4087-aca0-9cf427243a9c)
 
-骨架 ![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.020.jpeg)![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.021.jpeg)![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.022.jpeg)
-
-參數: 
-
-W\_L0=1.0 
-
-W\_H0= 
-
-Speed=8 Iteration:0 Iteration:8![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.023.jpeg)![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.024.jpeg)![](Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.025.jpeg)
-
-Iteration:7
-
-Iteration:9
-
-Iteration:10 iteration:11
-
-Demo 影片
-
-
+Demo Video
 
 https://github.com/j24576931000/simplification_and_skeleton/assets/31430607/1fe70876-7574-4613-8c58-f65e77a8579c
 
+## **Connectivity Surgery**
+
+- 參數: Wa = 1.0 and Wb= 0.1
+
+![Connectivity Surgery](https://github.com/j24576931000/simplification_and_skeleton/assets/31430607/24c4d9a4-a6d5-4dcd-b853-ac6d9b79f7ec)
 
 
-
-Connectivity Surgery
-
-目前是縮完骨架後,減面到一定程度在縮一次骨架
-
-- 參數: wa = 1.0 and wb= 0.1
-
-![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.027.jpeg) ![](picture/Aspose.Words.19218b92-d4f8-49d6-82f7-5b49a8fabc34.028.jpeg)
-
-
-
-Demo 影片
-
-
+Demo Video
 
 https://github.com/j24576931000/simplification_and_skeleton/assets/31430607/185bf36a-b63e-495a-a3c5-f0b36442ebd1
 
